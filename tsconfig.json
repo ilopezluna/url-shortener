@@ -1,0 +1,16 @@
+{
+  "extends": "@tsconfig/node17/tsconfig.json",
+  "include": [
+    "src/**/*"
+  ],
+  "compilerOptions": {
+    "outDir": "dist",
+    "strict": true,
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noImplicitReturns": true
+  },
+  "exclude": ["node_modules", ".cache"]
+}
